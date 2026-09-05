@@ -225,7 +225,7 @@ namespace LibraryManagement
             // 
             // btnSearchBook
             // 
-            this.btnSearchBook.Location = new System.Drawing.Point(420, 16);
+            this.btnSearchBook.Location = new System.Drawing.Point(490, 16);
             this.btnSearchBook.Name = "btnSearchBook";
             this.btnSearchBook.Size = new System.Drawing.Size(90, 25);
             this.btnSearchBook.TabIndex = 2;
@@ -235,17 +235,17 @@ namespace LibraryManagement
             // 
             // txtSearchBook
             // 
-            this.txtSearchBook.Location = new System.Drawing.Point(150, 18);
+            this.txtSearchBook.Location = new System.Drawing.Point(215, 18);
             this.txtSearchBook.Name = "txtSearchBook";
             this.txtSearchBook.Size = new System.Drawing.Size(250, 23);
             this.txtSearchBook.TabIndex = 1;
             // 
             // lblSearchBook
             // 
-            this.lblSearchBook.AutoSize = true;
+            this.lblSearchBook.AutoSize = false;
             this.lblSearchBook.Location = new System.Drawing.Point(20, 21);
             this.lblSearchBook.Name = "lblSearchBook";
-            this.lblSearchBook.Size = new System.Drawing.Size(110, 17);
+            this.lblSearchBook.Size = new System.Drawing.Size(180, 17);
             this.lblSearchBook.TabIndex = 0;
             this.lblSearchBook.Text = "Title / Author / ISBN:";
             // 
@@ -484,7 +484,7 @@ namespace LibraryManagement
             // 
             // btnSearchMember
             // 
-            this.btnSearchMember.Location = new System.Drawing.Point(420, 16);
+            this.btnSearchMember.Location = new System.Drawing.Point(490, 16);
             this.btnSearchMember.Name = "btnSearchMember";
             this.btnSearchMember.Size = new System.Drawing.Size(90, 25);
             this.btnSearchMember.TabIndex = 2;
@@ -494,17 +494,17 @@ namespace LibraryManagement
             // 
             // txtSearchMember
             // 
-            this.txtSearchMember.Location = new System.Drawing.Point(150, 18);
+            this.txtSearchMember.Location = new System.Drawing.Point(215, 18);
             this.txtSearchMember.Name = "txtSearchMember";
             this.txtSearchMember.Size = new System.Drawing.Size(250, 23);
             this.txtSearchMember.TabIndex = 1;
             // 
             // lblSearchMember
             // 
-            this.lblSearchMember.AutoSize = true;
+            this.lblSearchMember.AutoSize = false;
             this.lblSearchMember.Location = new System.Drawing.Point(20, 21);
             this.lblSearchMember.Name = "lblSearchMember";
-            this.lblSearchMember.Size = new System.Drawing.Size(128, 17);
+            this.lblSearchMember.Size = new System.Drawing.Size(180, 17);
             this.lblSearchMember.TabIndex = 0;
             this.lblSearchMember.Text = "Name / Phone / Email:";
             // 
@@ -705,6 +705,7 @@ namespace LibraryManagement
             this.colBorrowDate.Name = "colBorrowDate";
             this.colBorrowDate.ReadOnly = true;
             this.colBorrowDate.Width = 110;
+            this.colBorrowDate.DefaultCellStyle.Format = "dd/MM/yyyy";
             // 
             // colDueDate
             // 
@@ -713,6 +714,7 @@ namespace LibraryManagement
             this.colDueDate.Name = "colDueDate";
             this.colDueDate.ReadOnly = true;
             this.colDueDate.Width = 110;
+            this.colDueDate.DefaultCellStyle.Format = "dd/MM/yyyy";
             // 
             // colReturnDate
             // 
@@ -721,6 +723,7 @@ namespace LibraryManagement
             this.colReturnDate.Name = "colReturnDate";
             this.colReturnDate.ReadOnly = true;
             this.colReturnDate.Width = 110;
+            this.colReturnDate.DefaultCellStyle.Format = "dd/MM/yyyy";
             // 
             // colStatus
             // 
